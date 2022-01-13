@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="PN.js"></script>
+    <title>Document</title>
+</head>
+<style>
+
+    div{
+        display: flex;
+    }
+    
+    .num{
+            width: 200px;
+            height: 200px;
+            border-radius: 200px;           
+            border: 2px solid grey;
+            color: grey;
+            margin: 0 auto;
+
+    }
+    .connect{
+        width: 200px;
+        height: 30px;
+        background-color: grey;
+        margin-top: 100px;
+        margin-left: 0px;
+
+    }
+    span{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -15px;
+    }
+    
+    footer{
+        margin-top: 50px;
+    text-align: center;
+    }
+
+    
+</style>
+<body>
+    <div id="container">
+    <div class="num"><span>one</span></div>
+    <div class="connect"></div>
+    <div class="num"><span>two</span></div>
+    <div class="connect"></div>
+    <div class="num"><span>three</span></div>
+    <div class="connect"></div>
+    <div class="num"><span>four</span></div>
+</div>
+<footer>
+<input id="nxt" type="button" value="Next">
+<input id="prev" type="button" value="Previous">
+</footer>
+</body>
+</html>
